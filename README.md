@@ -22,8 +22,8 @@ Este projeto é uma API RESTful desenvolvida para o teste prático da **BeTalent
 
 ### Passo a Passo
 1. **Subir os containers (Banco e Mocks):**
-   ```bash
-   docker compose up -d
+   ```
+   docker compose up -d ```
 
 2. **Instalar dependências:**
    ```bash
