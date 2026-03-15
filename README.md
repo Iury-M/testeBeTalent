@@ -23,33 +23,35 @@ Este projeto é uma API RESTful desenvolvida para o teste prático da **BeTalent
 ### Passo a Passo
 1. **Subir os containers (Banco e Mocks):**
    ```
-   docker compose up -d ```
+   docker compose up -d 
 
 2. **Instalar dependências:**
    ```
-   npm install ```
+   npm install 
    
 3. **Configurar o Ambiente:**
 Copie o **.env.example** para **.env** e configure as credenciais do MySQL.
 
 4. **Rodar Migrations e Seeds:**
 
-  ```
+```bash
   node ace migration:run
-  node ace db:seed ```
+  node ace db:seed
+```
 
 
 5. **Iniciar Servidor:**
 
-  ```
-  npm run dev ```
-
+```
+  npm run dev 
+```
 
 **🧪 Testes Automatizados**
 O projeto utiliza testes funcionais para validar o fluxo de compra e as regras de negócio.
 
-  ```
-  node ace test ```
+```
+  node ace test
+```
 
 
 **🛣️ Rotas da API**
